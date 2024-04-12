@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:Poppins;
+  }
+  .par{
+    position: relative;
+    top:2vh;
+    left:4vw;
+  }
+.par ul{
+    list-style-type: none;
+    display:flex;
+    gap:2vw;
+    font-size:1.6vw;
+}
+.par ul li{
+  transition-duration: 0.3s;
+}
+.par ul li a{
+  text-decoration: none;
+  color:black;
+}
+
+.par ul li:hover{
+  transform:scale(1.02);
+  transition-duration: 0.3s;
+}
+#bars-hb{
+  display:none;
+}
+@media only screen and (max-width: 600px){
+  .par{
+    z-index:2;
+  }
+  #bars-hb{
+    font-size:30px;  
+    display:block;  
+    cursor:pointer;
+  }  
+    .par ul{
+      display:none;
+    }
+    .hamburger-menu{
+      .par ul{
+        position:absolute;
+        left:4vw;
+        top:10vw;
+        font-size:30px;
+      }
+      .par ul{
+        transition-duration: 0.3s;
+        display:flex;
+        flex-direction: column;
+      }
+    }
+}
