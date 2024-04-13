@@ -5,7 +5,9 @@ function hamburger(){
 function Navbar() {
   return(
     <>
-
+      {/* 
+      paste this in html file to use fontawesome icons
+      <script src="https://kit.fontawesome.com/27e5376861.js" crossorigin="anonymous"></script> */}
       <div className="par">
       <i className="fa-solid fa-bars" id = "bars-hb" onClick={hamburger}></i>
         <ul>
