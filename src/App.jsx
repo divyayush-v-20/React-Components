@@ -1,8 +1,10 @@
-import Navbar from './navbar.jsx'
-import './navbar.css'
+import Ret from "./api"
+import './App.css'
 function App(){
   return(
-    <Navbar/>
+    <>
+      <Ret/>
+    </>
   )
 }
 export default App
